@@ -1,0 +1,27 @@
+include: package:flutter_lints/flutter.yaml
+
+# https://dart.dev/tools/linter-rules
+linter:
+  rules:
+    always_declare_return_types: true
+    always_put_control_body_on_new_line: true
+    always_use_package_imports: true
+    annotate_overrides: true
+    avoid_dynamic_calls: true
+    avoid_empty_else: true
+    avoid_redundant_argument_values: true
+    await_only_futures: true
+    cancel_subscriptions: true
+    prefer_final_locals: true
+    prefer_single_quotes: true
+    unawaited_futures: true
+    unnecessary_lambdas: true
+    parameter_assignments: false
+    prefer_final_in_for_each: true
+
+analyzer:
+  errors:
+    invalid_use_of_protected_member: error
+
+formatter:
+  page_width: 80
